@@ -1,0 +1,37 @@
+{
+  "name": "pizza-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A modern pizza delivery website built with Vite.",
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pizza-website.git"
+  },
+  "keywords": [
+    "pizza",
+    "vite",
+    "delivery",
+    "website"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start:prod": "npm run build && npm run preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.1"
+  }
+}
